@@ -1,0 +1,146 @@
+
+html,body{
+    margin:-13px;
+    padding: 0px;
+}
+
+.top{
+    margin-top: 0px;
+    text-align: center;
+    border-bottom: 4px solid #172554;;
+    padding-bottom: 20px;
+    background-color: white;
+}
+
+#head{
+    color: rgb(63, 63, 171);
+}
+
+nav>a{
+    text-decoration: none;
+    color: rgb(40, 40, 115);
+    margin: 20px;
+}
+
+.container{
+    margin-top: 0px;
+    padding-top: 0px;
+    background-color: white;
+    max-width: 1100px;
+    margin: 30px auto;
+    padding: 25px;
+    border: 2px solid #ddd;
+}
+
+#letter::first-letter{
+    font-size: 50px;
+    color: rgb(5, 155, 145);
+    font-weight: bold;
+    float: left;
+    margin-right: 5px;
+    margin-TOP: -10PX;
+}
+
+#image{
+    margin-top:-20px ;
+    float:right;
+    width: 400px;
+    height: 200px;
+}
+
+hr{
+    border-bottom: 3px solid rgb(63, 63, 171); 
+}
+
+.selector{
+    position: relative;
+    border: 3px solid rgb(63, 63, 171);
+    padding: 4px;
+    margin: 4px;
+    width: 200px;
+    display: inline-block;
+    background-color: rgb(247, 247, 251, 0.89);
+}
+.selector>span{
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 15px;
+    font-size: 12px;
+    background-color: red;
+}
+
+.box{
+    position: relative;
+    border: 3px solid rgb(63, 63, 171) ;
+    padding: 4px;
+    margin: 4px;
+    width: 200px;
+    display: inline-block;
+    background-color: rgb(247, 247, 251, 0.89);
+}
+
+.box>span{
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 15px;
+    font-size: 12px;
+    background-color: green;
+}
+
+.position{
+    border: 3px solid rgb(63, 63, 171);
+    padding: 4px;
+    margin: 4px;
+    width: 200px;
+    display: inline-block;
+    background-color: rgba(247, 247, 251, 0.89);
+}
+
+.start{
+    background-color: #038d27;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.start:hover {
+    background-color: #db058c;
+}
+
+.tip-box {
+    background-color: #fff4e6;
+    border-left: 6px solid #cf6c56;
+    padding: 1px;
+    margin: 20px 0;
+    color: #555;
+}
+
+.opacity-text {
+    opacity: 0.35 ;
+}
+
+.z-index-box {
+    position: relative;
+    z-index: 2;
+    padding: 15px;
+    margin: 20px 0;
+}
+
+footer {
+    background-color: #172554;
+    text-align: center;
+    border-top: 1px solid #ddd;
+    padding: 1px;
+    margin-top: 30px;
+    color:white;
+}
+
+

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <header>
+    <h1>IEEE Frontend Committee</h1>
+    <p>Learn. Build. Share.</p>
+    <nav>
+        <a href="#home">Home</a> |
+        <a href="#courses">Courses</a> |
+        <a href="#register">Register</a> |
+        <a href="#contant">Contant</a>
+    </nav>
+  </header>
+  <main>
+    <section id="home">
+   <h2>Welcome to Our Frontend Journey!</h2>  
+   <p>We are learing how to build websutes using <strong>HTML</strong>,CSS,Javascript.</p>
+   <p>Explore our courses below, then register for the next session.</p>
+   </section>
+   <section id="courses">
+    <h2>Available Courses</h2>
+    <table border="">
+        <caption>Frontend Learing Schedule</caption>
+        <tr>
+            <th>Courses</th>
+            <th>Topic</th>
+            <th>Day</th>
+            <th>Level</th>
+        </tr>
+        <tr>
+            <td>HTML</td>
+            <td>Sematic Elements</td>
+            <td>Sunday</td>
+            <td>Beginner</td>
+        </tr>
+        <tr>
+            <td>HTML</td>
+            <td>Tables & Forms</td>
+            <td>Tuesday</td>
+            <td>Beginner</td>
+        </tr>
+        <tr>
+            <td>CSS</td>
+            <td>Selectors & Colors</td>
+            <td>Tuesday</td>
+            <td>Beginner</td>
+        </tr>
+        <tr>
+            <td>Javascript</td>
+            <td>Variables & Fanctions</td>
+            <td>Saturday</td>
+            <td>Beginner</td>
+        </tr>
+        <tr>
+            <td colspan="4">All sessions include hands-on practice.</td>
+        </tr>
+    </table>
+   </section>
+   <section id="register">
+    <h2>Register for a session</h2>
+    <p>Fill in the form below to join the committee activities. </p>
+    <form >
+        <fieldset>
+            <legend>Personal Information </legend>
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" placeholder="Enter your name">
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="text" id="email" placeholder="you@example.com">
+            <br><br>
+            <label for="password">Password:</label>
+            <input type="text" id="password" placeholder="Create a password">
+            <br><br>
+        </fieldset>
+        <fieldset>
+            <legend>Session Preferences</legend>
+            <label for="course">Choose a course</label>
+            <select name="course">
+                <option value="">-- Select --</option>
+                <option>HTML</option>
+                <option>CSS</option>
+                <option>Javascript</option>
+            </select>
+            <br><br>
+            Attendance:
+            <input type="radio" name="attendance" value="offline"> Offline
+            <input type="radio" name="attendance" value="online"> Online
+            <br><br>
+            Interests:
+             <input type="checkbox" value="projects"> Projects
+             <input type="checkbox" value="workshops"> Workshops
+             <br><br>
+             <label for="notes">Notes:</label>
+             <br>
+             <textarea id="notes" placeholder="Any questions or suggestions?" rows="2" cols="40"></textarea>
+             <br><br>
+        </fieldset>
+        <button type="submit">Submit Registration</button>
+        <button type="reset">Clear Form</button>
+    </form>
+   </section>
+   <section>
+    <h2>Next session</h2>
+    <p><strong>CSS Fundamentals</strong>-Bring your laptop if possible.</p>
+   </section>
+   <footer id="Contant">
+    <hr>
+    <p>Contact us: <a href="mailto:frontend@example.com">frontend@example.com</a></p>
+    <p>© 2026 IEEE Frontend Committee</p>    
+   </footer>
+   </main>
+</body>
+</html>
